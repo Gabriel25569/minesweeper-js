@@ -1,0 +1,42 @@
+<html>
+<head>
+    <title>Mindmup</title>
+    <style>
+        body
+        {
+            margin: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <tr>
+                <td>Altura: </td>
+                <td><input id="input-height" type="text" value="25"><br></td>
+            </tr>
+            <tr>
+                <td>Largura: </td>
+                <td><input id="input-width" type="text" value="25"><br></td>
+            </tr>
+            <tr>
+                <td>Minas: </td>
+                <td><input id="input-mines" type="text" value="100"><br></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td style="text-align: right"><button id="btn-start">Iniciar jogo!</button></td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <span id="log"></span>
+    <br>
+    <canvas id="canvas">
+        Seu navegador é um lixo grande!
+    </canvas>
+    <script src="src/minesweeper.js"></script>
+    <script src="src/board.js"></script>
+    <script src="src/spritegraphics.js"></script>
+</body>
+</html>
