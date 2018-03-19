@@ -6,7 +6,7 @@ function startGame()
     let log = document.getElementById("log");
     let canvas = document.getElementById("canvas");
 
-    Game.init(width, height, mines, 20, canvas, log, {src: "img/sprite.jpg", 
+    Game.init(width, height, mines, 20, canvas, log, {src: "src/img/sprite.jpg", 
                                                        r:4 , c:4 , s: 128,
                                                        o: {def: 0, flag: 1, mine: 2, cleared: 3, redMine: 12}});
 }
