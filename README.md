@@ -1,2 +1,2 @@
-#Minesweeper
+# Minesweeper
 :bomb:
